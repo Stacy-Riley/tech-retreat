@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -21,36 +21,40 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 
+  <script src="https://kit.fontawesome.com/c834aede1d.js" crossorigin="anonymous"></script> 
+<!-- FontAwesome CDN version 5.5 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  -->
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  
+  <div class="container">
     <!-------------- Beginning of header -------------->
     <header>
-      <div class="content-wrapper">
-        <figure>
-          <a href="../index.html" class="logo-image">
-            <img src="../img/unpluggedlogo.png" alt="unplugged logo">
-          </a>
-        </figure>
-        <div class="header-divider"></div>
-        <nav>
-          <ul>
-            <li><a href="../faq/index.html">FAQ</a></li>
-            <li><a href="../about/index.html">About</a></li>
-          </ul>
-        </nav>
+      <div class="header-container">
+        <div class="logo-wrapper">
+          <figure>
+            <a href="../index.html" class="logo-image">
+              <img src="../img/unpluggedlogo.png" alt="unplugged logo">
+            </a>
+          </figure>
+        </div>
+        <div class="header-divider"></div>      
+          <nav class="nav-wrapper">
+            <ul>
+              <li><a href="../faq/index.html">FAQ</a></li>
+              <li><a href="../about/index.html">About</a></li>
+            </ul>
+          </nav>        
       </div>
     </header>
     
 
     <!-------------- Beginning of main -------------->
     <main class="faq">
-      <section class="content-wrapper">
-        
-        <h2>Frequently Asked Questions</h2>    
-        
+      <section class="content-wrapper">       
+        <h2>Frequently Asked Questions</h2>            
         <div class="faq-content-wrapper">
           <div class="faq-content">
             <h4>How do I get to the Unplugged retreat?</h4>
@@ -89,39 +93,43 @@
 
     <!-------------- Beginning of footer -------------->
     <footer>
-      <div class="content-wrapper">
-        <div class="footer-content">
-          <div class="contact">
-            <h4>Contact</h4>
+      <div class="footer-container">  
+        <div class="contact-container">
+          <h4>Contact</h4>
+          <div class="contact-wrapper">
             <address>
               <p>
                 555-555-5555<br>
                 hello@unplugged.com
               </p>
             </address>
-          </div>
-          <div class="social">
-            <h4>Social</h4>
-            <div class="social-icons">
-              <p>
-                <a href="https://www.facebook.com/Skillcrush/" target="_blank"></a>
-              </p>
-              <p>
-                <a href="https://twitter.com/Skillcrush" target="_blank"></a>
-              </p>
-              <p>
-                <a href="https://www.instagram.com/skillcrush/" target="_blank"></a>
-              </p>
-            </div>
-        </div> <!--End .footer-content-->
-        
-      </div>    <!--End .content-wrapper--> 
-      <div class="copyright">
-          <p>Copyright 2018 | Unplugged</p>
+          </div>  
         </div>
-      </div>   <!--footer content-wrapper ends-->
-    </footer>
-    
+
+        <div class="social-container">
+          <h4>Social</h4>
+          <div class="social-wrapper">
+            <!-- <div class="social-wrapper"> -->
+              <a href="https://www.facebook.com/Skillcrush/" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>              
+            
+              <a href="https://twitter.com/Skillcrush" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            
+              <a href="https://www.instagram.com/skillcrush/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            <!-- </div>    -->
+          </div>           
+        </div> 
+      </div>  
+      <div class="copyright">
+          <p>Copyright 2020 | Unplugged</p>
+      </div>
+    </footer> 
+  </div>  
       <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
       <script src="../js/plugins.js"></script>
       <script src="../js/main.js"></script>
