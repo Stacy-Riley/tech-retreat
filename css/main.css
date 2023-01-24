@@ -103,13 +103,6 @@ body{
   text-align: left;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 ul, 
 ol {
   list-style-type: none;
